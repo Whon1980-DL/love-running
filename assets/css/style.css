@@ -29,7 +29,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -70,7 +69,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle using tilde ~ */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -125,8 +124,16 @@ footer {
         margin: 0 0.5rem;
     }
 
+    /* Main content */
     main {
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+}
 
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
