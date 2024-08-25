@@ -28,6 +28,11 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+/* for hiding text but remain presnet for the sake of search engine */
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
